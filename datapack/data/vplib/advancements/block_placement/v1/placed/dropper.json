@@ -3,7 +3,7 @@
         "place": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "block": "minecraft:blast_furnace"
+                "block": "minecraft:dropper"
             }
         }
     },
@@ -13,6 +13,6 @@
         ]
     ],
     "rewards": {
-        "function": "vplib:block_placement/v1/api/placed_blast_furnace"
+        "function": "vplib:block_placement/v1/api/placed/dropper"
     }
 }

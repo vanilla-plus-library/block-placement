@@ -16,6 +16,6 @@
         ]
     ],
     "rewards": {
-        "function": "vplib:block_placement/v1/api/placed_item_frame"
+        "function": "vplib:block_placement/v1/api/placed/item_frame"
     }
 }

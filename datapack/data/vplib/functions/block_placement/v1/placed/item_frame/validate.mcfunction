@@ -16,11 +16,11 @@ execute if score #replace_block vplib.temp matches 1 positioned ^ ^ ^-0.5 align 
 
 
 # Call function tag if valid
-execute if score #replace_block vplib.temp matches 0 if score #valid vplib.temp matches 1 align xyz positioned ~0.5 ~0.5 ~0.5 run function #vplib:block_placement/api/placed_item_frame
-execute if score #replace_block vplib.temp matches 1 if score #valid vplib.temp matches 1 positioned ^ ^ ^-0.5 align xyz positioned ~0.5 ~0.5 ~0.5 run function #vplib:block_placement/api/placed_item_frame
+execute if score #replace_block vplib.temp matches 0 if score #valid vplib.temp matches 1 align xyz positioned ~0.5 ~0.5 ~0.5 run function #vplib:block_placement/api/placed/item_frame
+execute if score #replace_block vplib.temp matches 1 if score #valid vplib.temp matches 1 positioned ^ ^ ^-0.5 align xyz positioned ~0.5 ~0.5 ~0.5 run function #vplib:block_placement/api/placed/item_frame
 
 # Drop item if not valid
-execute if score #valid vplib.temp matches 0 align xyz positioned ~0.5 ~0.5 ~0.5 run function #vplib:block_placement/api/drop_item_frame
+execute if score #valid vplib.temp matches 0 align xyz positioned ~0.5 ~0.5 ~0.5 run function #vplib:block_placement/api/drop/item_frame
 
 
 # Kill frame

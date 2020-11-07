@@ -1,5 +1,7 @@
+#> vplib:block_placement/v1/placed/item_frame/start
+
 # Reset triggers
-advancement revoke @s only vplib:block_placement/v1/placed_item_frame
+advancement revoke @s only vplib:block_placement/v1/placed/item_frame
 
 # Player cardinal direction
 function vplib:block_placement/v1/general/player/detect_cardinal

@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "place": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:jukebox"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "place"
+        ]
+    ],
+    "rewards": {
+        "function": "vplib:block_placement/v1/api/placed/jukebox"
+    }
+}
