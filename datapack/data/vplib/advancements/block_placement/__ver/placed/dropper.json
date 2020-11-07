@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "place": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:dropper"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "place"
+        ]
+    ],
+    "rewards": {
+        "function": "vplib:block_placement/__ver/api/placed/dropper"
+    }
+}

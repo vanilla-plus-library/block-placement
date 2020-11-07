@@ -1,5 +1,5 @@
 {
     "values": [
-        "vplib:block_placement/v1/api/uninstall"
+        "vplib:block_placement/__ver/api/uninstall"
     ]
 }

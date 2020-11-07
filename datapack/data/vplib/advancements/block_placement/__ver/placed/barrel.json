@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "place": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:barrel"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "place"
+        ]
+    ],
+    "rewards": {
+        "function": "vplib:block_placement/__ver/api/placed/barrel"
+    }
+}

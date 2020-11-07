@@ -1,5 +1,5 @@
 {
     "values": [
-        "vplib:block_placement/v1/api/general/player/detect_cardinal"
+        "vplib:block_placement/__ver/api/general/player/detect_cardinal"
     ]
 }
