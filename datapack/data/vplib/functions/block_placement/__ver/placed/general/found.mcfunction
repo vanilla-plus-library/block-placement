@@ -1,5 +1,4 @@
 #> vplib:block_placement/__ver/placed/general/found
-setblock ~ ~ ~ air
 
 # Break loop
 scoreboard players set #found_block vplib.temp 1
