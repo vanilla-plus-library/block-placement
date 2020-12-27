@@ -1,6 +1,6 @@
 #> vplib:load/init
 # Description: Initialize versioning objective and load core module.
-# From: '#vplib:core/load/init(#minecraft:load)'
+# From: '#vplib:core/load/init(#load:standard)'
 
 # Add Objective
 scoreboard objectives add vplib.load dummy

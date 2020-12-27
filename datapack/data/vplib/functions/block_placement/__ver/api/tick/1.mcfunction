@@ -4,4 +4,4 @@
 # From: #vplib:block_placement/api/tick/1
 
 # Run 'tick/1' if lib version matches
-execute if score #vplib.block_placement.current vplib.load matches 1 run function vplib:block_placement/__ver/tick/1
+execute if score #vplib.block_placement.current vplib.load matches 2 run function vplib:block_placement/__ver/tick/1

@@ -9,7 +9,7 @@ function vplib:core/api/version/check_1.16
 execute if score #1.16 vplib.load matches 0 run scoreboard players set #load vplib.load 0
 
 ## Missing core
-scoreboard players set #expected.vplib.core vplib.load 1
+scoreboard players set #expected.vplib.core vplib.load 2
 
 execute unless score #vplib.core.current vplib.load >= #expected.vplib.core vplib.load run scoreboard players set #load vplib.load -1
 execute if score #vplib.core.breaking vplib.load > #expected.vplib.core vplib.load run scoreboard players set #load vplib.load -2
